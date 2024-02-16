@@ -87,3 +87,7 @@ textarea[readonly] {
   font-weight: bold;
   font-size: 24px;
 }
+
+.negrito-select {
+  font-weight: bold;
+}

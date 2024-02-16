@@ -4,7 +4,7 @@ Este é um aplicativo da web simples para criptografar e descriptografar texto u
 
 
 <div align="center">
-<img src="https://desblogada.files.wordpress.com/2021/05/kaka-cordovil-java-developer-2.gif" width="700px" />
+<img src="https://github.com/mario-evangelista/decodificador-texto-javascript/assets/121322767/4eb3c334-9e9a-45a2-8783-0e6cc9fcfc8f)" width="700px" />
 </div>
 
 

@@ -28,6 +28,10 @@ button {
   border: 1px solid #ccc;
 }
 
+textarea {
+  text-transform: lowercase;
+}
+
 button {
   background-color: #007bff;
   color: #fff;

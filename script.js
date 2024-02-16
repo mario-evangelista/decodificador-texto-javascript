@@ -4,9 +4,9 @@ function processarTexto() {
   var saidaTexto = "";
 
   if (operacao === "criptografar") {
-    saidaTexto = criptografarTexto(entradaTexto);
+    saidaTexto = criptografarTexto(entradaTexto.toLowerCase());
   } else if (operacao === "descriptografar") {
-    saidaTexto = descriptografarTexto(entradaTexto);
+    saidaTexto = descriptografarTexto(entradaTexto.toLowerCase());
   }
 
   document.getElementById("saidaTexto").value = saidaTexto;
@@ -34,11 +34,11 @@ function copiarTexto() {
   var saidaTexto = document.getElementById("saidaTexto");
   saidaTexto.select();
   document.execCommand("copy");
-  var alertBox = document.getElementById("alerta");
-  alertBox.textContent = "Texto copiado para a área de transferência!";
-  alertBox.style.display = "block";
+  var caixaDeAlerta = document.getElementById("alerta");
+  caixaDeAlerta.textContent = "Texto copiado para a área de transferência!";
+  caixaDeAlerta.style.display = "block";
   setTimeout(function () {
-    alertBox.style.display = "none";
+    caixaDeAlerta.style.display = "none";
   }, 3000);
 }
 

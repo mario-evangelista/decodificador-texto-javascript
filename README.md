@@ -1,6 +1,6 @@
 # Decodificador de Texto - Alura Challenges Oracle ONE
 
-Este é um aplicativo da web simples para criptografar e descriptografar texto usando uma cifra de substituição simples.
+Este é um aplicativo da web simples para criptografar e descriptografar texto usando uma cifra de substituição simples, densenvolvido para o challenger/desafio da Turma-06 do ONE - Oracle Next Education no ano de 2024 uma parceria Oracle + Alura.
 
 ## Como funciona
 

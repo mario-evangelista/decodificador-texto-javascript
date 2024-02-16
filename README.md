@@ -2,6 +2,12 @@
 
 Este é um aplicativo da web simples para criptografar e descriptografar texto usando uma cifra de substituição simples, densenvolvido para o challenger/desafio da Turma-06 do ONE - Oracle Next Education no ano de 2024 uma parceria Oracle + Alura.
 
+
+<div align="center">
+  <img src="https://github.com/mario-evangelista/decodificador-texto-javascript/assets/121322767/4eb3c334-9e9a-45a2-8783-0e6cc9fcfc8f)" width="0px" />
+</div>
+
+
 ## Como funciona
 
 Este aplicativo permite inserir texto e selecionar uma operação (criptografia ou descriptografia) usando uma cifra de substituição. A cifra de substituição usada nesta aplicação substitui vogais específicas por substitutos predeterminados.

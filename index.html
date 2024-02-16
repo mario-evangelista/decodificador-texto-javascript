@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador de texto com Javascript</title>
+</head>
+
+<body>
+    <h1>Decodificador de texto com Javascript</h1>
+    <strong><label for="entradaTexto">Texto:</label></strong>
+    <textarea id="entradaTexto" class="negrito" rows="4" cols="50"></textarea>
+    <br>
+    <strong><label for="operacao">Operação:</label></strong>
+    <select id="operacao">
+        <option value="criptografar">Criptografar</option>
+        <option value="descriptografar">Descriptografar</option>
+    </select>
+    <button class="btn-processar" onclick="processarTexto()">PROCESSAR</button>
+    <br>
+    <label for="saidaTexto"><strong>Resultado:</strong></label>
+    <textarea id="saidaTexto" class="negrito" rows="4" cols="50" readonly></textarea>
+    <button class="btn-copiar" onclick="copiarTexto()">COPIAR PARA A ÁREA DE TRANSFERÊNCIA</button>
+    <div id="alerta" class="alerta"></div>
+    <br>
+    <button class="btn-limpar" onclick="limparTexto()">LIMPAR TEXTO</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
